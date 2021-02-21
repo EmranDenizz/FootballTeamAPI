@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FootballTeam.API</name>
+    </assembly>
+    <members>
+        <member name="M:FootballTeam.API.Controllers.FootballTeamController.Get">
+            <summary>
+            Futbolcuları listeler.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FootballTeam.API.Controllers.FootballTeamController.Get(System.Int32)">
+            <summary>
+            id numaralı futbolcuyu getirir.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FootballTeam.API.Controllers.FootballTeamController.Post(FootballTeam.Entities.Footballers)">
+            <summary>
+            Futbolcu ekler.
+            </summary>
+            <param name="footballers"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FootballTeam.API.Controllers.FootballTeamController.Put(FootballTeam.Entities.Footballers)">
+            <summary>
+            Varolan futbolcu bilgileri günceller.
+            </summary>
+            <param name="footballers"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FootballTeam.API.Controllers.FootballTeamController.Delete(System.Int32)">
+            <summary>
+            Kayıtlı futbolcuyu siler.
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
